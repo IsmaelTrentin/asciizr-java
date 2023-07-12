@@ -8,6 +8,18 @@ Old Java homework that needed to create ascii art from bmp images.
 java Asciizr <bmp_path> [-H] [-o <out_file_path>] [-c <char_map>] [-i]
 ```
 
+Example:
+
+```shell
+java src/Asciizr testimgs/pepe.bmp -H -c "[#,,\., ]"
+```
+
+Output to file:
+
+```shell
+java src/Asciizr testimgs/pepe.bmp -H -o pepe-ascii.txt -c "[#,,\., ]"
+```
+
 | Argument        | Description                                                                                                               |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | `bmp_path`      | The bmp image file path                                                                                                   |
