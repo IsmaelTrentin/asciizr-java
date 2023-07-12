@@ -5,7 +5,7 @@ Old Java homework that needed to create ascii art from bmp images.
 ## Usage
 
 ```shell
-java Asciizr <bmp_path> [-h] [-o <out_file_path>] [-i]
+java Asciizr <bmp_path> [-h] [-o <out_file_path>] [-c <char_map>] [-i]
 ```
 
 | Argument        | Description                                                                                                               |
