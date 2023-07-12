@@ -11,13 +11,13 @@ java Asciizr <bmp_path> [-H] [-o <out_file_path>] [-c <char_map>] [-i]
 Example:
 
 ```shell
-java src/Asciizr testimgs/pepe.bmp -H -c "[#,@,!,-, ]"
+java Asciizr ../testimgs/pepe.bmp -H -c "[#,@,-, ]"
 ```
 
 Output to file:
 
 ```shell
-java src/Asciizr testimgs/pepe.bmp -H -o pepe-ascii.txt -c "[#,@,!,-, ]"
+java Asciizr ../testimgs/pepe.bmp -H -o pepe-ascii.txt -c "[#,@,-, ]"
 ```
 
 | Argument        | Description                                                                                                               |
